@@ -18,6 +18,14 @@ body {
     margin-right: 20px;
 }
 
+ #lines {
+ border-bottom: 1px solid #dddddd;
+  width: 250px;
+  margin-left: 0px;
+  margin-top: -20px;
+  height: 20px;
+}
+
 #page-header {  
     color: white;
     background-color: #4aaaa5;
@@ -33,6 +41,14 @@ body {
     text-align: center;
     text-orientation: center;
     border-bottom-color: black;
+}
+
+#liner {
+  border-bottom: 1px solid #dddddd;
+  width: 190px;
+  margin-left: 30px;
+  margin-top: -20px;
+  height: -20px;
 }
 
 header {
@@ -72,18 +88,35 @@ input[type=submit]:hover {
 .container {
     border: 1px solid #cccccc;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 10opx;
     margin-left: 100px;
     margin-right: 45%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
+
+}
+
+#picturelink {
+  border: 1px solid #cccccc;
+  background-color: white;
+  color:black;
+  position: relative;
+  position: absolute;
+  height: 150px;
+  width: 250px;
+  right: 100px;
+  margin-top: -496px;
+  text-orientation: center;
+  text-align: center;
+  bottom-padding: 10px;
+
 }
 
 footer {
-  margin-top: 150px;
+  margin-top: 30px;
   clear:both;
   padding: 40px;
-  border-top: 6px solid #4aaaa5;
+  border-top: 1px solid #4aaaa5;
   text-align: center;
   font-size: 16px;
   background: #666666;
