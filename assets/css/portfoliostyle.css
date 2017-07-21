@@ -41,6 +41,25 @@ body {
 
 	}
 
+#container {
+	width: 600px;
+	height: 600px;
+	padding-top: 20px;
+	background-color: white;
+	position: absolute;
+	margin-top: 45px;
+	border: 1px solid #cccccc;
+	margin-left: 45px;
+}
+
+#liner {
+  border-bottom: 1px solid #dddddd;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: -20px;
+  height: -20px;
+}
+
 #picturelink {
 	border: 1px solid #cccccc;
 	background-color: white;

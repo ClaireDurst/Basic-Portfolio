@@ -101,7 +101,7 @@ footer {
 
 .boxHeader {
 	font-size: bold;
-	font-color: #4aaaa5;
+	font-color: #white;
 	text-underline-position: below;
 }
 
@@ -121,6 +121,20 @@ h1 {
 	height: 200px;
 	width: 200px;
 
+}
+
+h4 {h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-color: #4aaaa5;
+}
+
+#lining {
+	  border-bottom: 1px solid #dddddd;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: -20px;
+  height: -20px;
+}
 }
 
 #address  {
